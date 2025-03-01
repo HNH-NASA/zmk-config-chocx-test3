@@ -18,13 +18,13 @@
 #
 ---
  board: [ "seeeduino_xiao_ble" ]
- shield: [ "corne_ulp_ball_left", "corne_ulp_ball_right" ]
+ shield: [ "ChocX_L", "ChocX_R" ]
  include:
    - board: seeeduino_xiao_ble
-     shield: corne_ulp_ball_left
+     shield: ChocX_L
      snippet: zmk-usb-logging
-     artifact-name: corne_ulp_ball_left_with_studio
+     artifact-name: ChocX_L_with_studio
    - board: seeeduino_xiao_ble
-     shield: corne_ulp_ball_right
+     shield: ChocX_R
    - board: seeeduino_xiao_ble
      shield: settings_reset
