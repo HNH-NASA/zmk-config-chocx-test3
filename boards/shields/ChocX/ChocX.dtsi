@@ -4,7 +4,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "ChocX-layouts.dtsi"
+//#include "ChocX-layouts.dtsi"
 
 / {
     chosen {
