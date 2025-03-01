@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    // Define a default keymap here.
-    // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
+    combos { compatible = "zmk,combos"; };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -21,8 +21,8 @@
             bindings = <
 &kp Q             &kp W      &kp E         &kp R           &kp T                       &kp Y        &kp U       &kp I      &kp O       &kp P
 &kp A             &kp S      &kp D         &kp F           &kp G                       &kp H        &kp J       &kp K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V           &kp B                       &kp N        &kp M       &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LEFT_SHIFT    &kp LCTRL  &kp LEFT_ALT  &lt 3 LEFT_WIN  &lt 2 ENTER  &lt 1 DEL      &lt 1 SPACE  &lt 2 BSPC  &kp PSCRN  &kp TAB     &kp ESC
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -34,10 +34,10 @@
             // |      |      |      |      |      |      |          |      |      |      |      |       |
 
             bindings = <
-&kp F1  &kp F3          &kp F4    &kp F5           &kp F6                      &kp F2       &kp F7    &kp F8    &kp F9    &kp F10
-&trans  &msc SCRL_LEFT  &kp UP    &msc SCRL_RIGHT  &msc SCRL_UP                &kp K_COPY   &mkp MB1  &mkp MB3  &mkp MB2  &kp F11
-&trans  &kp LEFT        &kp DOWN  &kp RIGHT        &msc SCRL_DOWN              &kp K_PASTE  &mkp MB4  &mkp MB5  &trans    &kp F12
-&trans  &trans          &trans    &trans           &trans          &trans      &trans       &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -49,10 +49,10 @@
             // | ESC |  0  |  .  | BS  |     |    |          |  _  |  +  |  {  |  }  |     |
 
             bindings = <
-&kp TAB    &kp N7  &kp N8   &kp N9    &kp EQUAL              &kp LPAR  &kp RPAR   &kp AMPERSAND  &kp CARET  &kp NUBS
-&kp ASTRK  &kp N4  &kp N5   &kp N6    &kp PLUS               &kp LBKT  &kp UNDER  &kp AT         &kp COLON  &kp SEMI
-&kp SLASH  &kp N1  &kp N2   &kp N3    &kp MINUS              &kp RBKT  &kp EXCL   &kp QMARK      &kp GRAVE  &kp DQT
-&kp ESC    &kp N0  &kp DOT  &kp BSPC  &trans     &trans      &trans    &trans     &trans         &trans     &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
