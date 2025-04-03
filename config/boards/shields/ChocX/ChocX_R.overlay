@@ -54,7 +54,7 @@
         reg = <0x00>;
         spi-max-frequency = <2000000>;
         default-mode = "mouse";
-        sensitivity = "4x"
+        sensitivity = "4x";
         #irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         #automouse-layer = <6>;
         #scroll-layers = <5>;
