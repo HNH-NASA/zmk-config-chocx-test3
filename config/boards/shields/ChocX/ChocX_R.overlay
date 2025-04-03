@@ -49,7 +49,7 @@
     #pinctrl-names = "default", "sleep";
     #cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
-    trackball: trackball@a {
+    trackball: trackball@0 {
         status = "okay";
         compatible = "palette,az1uball";
         reg = <0x0A>;
