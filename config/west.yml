@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
-      revision: main
+      revision: v0.2.1
     - name: zmk_az1uball_driver
       remote: kzyz
       revision: main
