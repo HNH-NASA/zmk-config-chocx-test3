@@ -20,8 +20,10 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: ChocX_R rgbled_adapter
-  - board: seeeduino_xiao_ble
     shield: ChocX_L rgbled_adapter
+    artifact-name: ChocX_L
+  - board: seeeduino_xiao_ble
+    shield: ChocX_R rgbled_adapter
+    artifact-name: ChocX_R
   - board: seeeduino_xiao_ble
     shield: settings_reset
