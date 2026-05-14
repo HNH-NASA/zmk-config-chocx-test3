@@ -56,8 +56,6 @@
         compatible = "palette,az1uball";
         reg = <0x0A>;
 		status = "okay";
-		default-mode = "mouse";
-		sensitivity = "10x";
     };
 };
 
@@ -90,6 +88,7 @@
 	 trackball_input_listener {
     	status = "okay";
     	device = <&trackball>;
+		input-processors = <&zip_xy_scaler 4 1>;
 	};
 };
 / {
