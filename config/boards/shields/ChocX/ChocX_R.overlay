@@ -92,8 +92,6 @@
         input-processors = <&zip_xy_scaler 4 1>;
 };
 
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
+&chosen {
+    zmk,underglow = &led_strip;
 };
