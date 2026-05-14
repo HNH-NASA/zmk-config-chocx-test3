@@ -9,15 +9,27 @@ config ZMK_SPLIT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_POINTING
+    default y
+
+config AZ1UBALL
+    default y
+
+config I2C
+    default y
+
+config SPI
+    default y
+
 endif
 
 
-if SHIELD_CHOCX_L
+if SHIELD_CHOCX_R || SHIELD_CHOCX_L
 
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT
+config SPI
     default y
 
-endif
+endif     # SHIELD_CHOCX_R || SHIELD_CHOCX_L
