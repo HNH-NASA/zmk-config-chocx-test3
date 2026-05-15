@@ -56,8 +56,6 @@
     trackball: trackball@a {
         compatible = "palette,az1uball";
         reg = <0x0A>;
-		default-mode = "mouse";
-		sensitivity = "10x";
 		status = "okay";
     };
 };
@@ -91,6 +89,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+		input-processors = <&zip_xy_scaler 4 1>
 	};
 };
 / {
