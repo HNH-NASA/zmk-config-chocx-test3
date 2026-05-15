@@ -16,6 +16,6 @@ manifest:
       revision: v0.3-branch
     - name: zmk_az1uball_driver
       remote: kzyz
-      revision: v0.3-branch
+      revision: main
   self:
     path: config
