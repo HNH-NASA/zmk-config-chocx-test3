@@ -90,7 +90,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <&zip_xy_scaler 4 1
-							&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>;
+							&zip_xy_transform INPUT_TRANSFORM_X_INVERT>;
         status = "okay";
     };
 };
