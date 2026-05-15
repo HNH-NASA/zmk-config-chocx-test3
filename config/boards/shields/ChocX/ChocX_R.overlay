@@ -85,13 +85,13 @@
                          LED_COLOR_ID_BLUE>;
     };
 };
-
-&trackball_input_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-    status = "okay";
+/ {
+    &trackball_input_listener: trackball_input_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        status = "okay";
+    };
 };
-
 / {
     chosen {
         zmk,underglow = &led_strip;
