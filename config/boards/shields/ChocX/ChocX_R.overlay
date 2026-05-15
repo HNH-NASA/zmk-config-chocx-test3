@@ -85,10 +85,11 @@
     };
 };
 
-&trackball_listener {
+&trackball_input_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
     input-processors = <&zip_xy_scaler 4 1>;
+    status = "okay";
 };
 
 / {
