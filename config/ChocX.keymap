@@ -248,10 +248,10 @@
             // |    |     |     |     |    |    |          |    |    |    |    | To0 |
 
             bindings = <
-&trans  &trans  &kp W   &trans  &trans              &trans  &trans          &kp UP_ARROW    &trans           &trans
-&trans  &kp A   &kp S   &kp D   &trans              &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &kp SPACE       &kp ENTER       &kp ESC          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans          &trans           &to 0
+&trans  &trans  &kp W   &trans  &trans              &trans            &trans          &kp UP_ARROW    &trans           &trans
+&kp Z   &kp A   &kp S   &kp D   &kp R               &kp LEFT_SHIFT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &kp X   &kp E   &kp F   &trans              &kp LEFT_CONTROL  &kp ENTER       &kp SPACE       &kp ESC          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans          &trans          &trans           &to 0
             >;
         };
 
